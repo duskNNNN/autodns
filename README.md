@@ -1,1 +1,21 @@
 # autodns
+> 适用于家庭带宽 
+
+自动获取本地ipv6地址，并修改对应腾讯云域名的记录值
+
+## 配置文件
+> 创建Conf/conf.yml
+
+```shell
+# 填写腾讯云API密钥
+dnspod:
+  id: 
+  token: 
+# 填写邮箱信息
+mail:
+  adminEmail:  # 此处为接收者邮箱
+  host: 
+  port: 
+  sendEmail: # 此处为发送者邮箱
+  token:  # 发送者的密钥
+```
